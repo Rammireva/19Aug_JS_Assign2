@@ -1,0 +1,15 @@
+<html>
+<head><title>Jquery</title></head>
+<body>
+<form>
+    <input type="text" id="text1" name="text1" value="text1"><br />
+    <input type="text" id="text2" name="text2" value="text2"><br />
+</form>
+</body>
+<script src="../../jquery.min.js"></script>
+<script type="application/javascript">
+    $('#text1').blur(function () {
+        alert('value is '+$(this).val());
+    })
+</script>
+</html>
